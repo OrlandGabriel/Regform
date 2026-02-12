@@ -1,4 +1,4 @@
-document.getElementById("registrationForm")
+document.getElementById("regform")
 .addEventListener("submit", function (event) {
 
     event.preventDefault(); 
