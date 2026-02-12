@@ -1,5 +1,10 @@
 * {box-sizing: border-box}
-
+.card {
+  background-color: #2b046f; 
+  color: white;                
+  border: none;              
+  border-radius: 15px;       
+}
 
 .container {
   padding: 16px;
@@ -12,17 +17,17 @@ input[type=text], input[type=password] {
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
-  background: #2b046f;
+  background: #ffffff;
 }
 
 input[type=text]:focus, input[type=password]:focus {
-  background-color: #462c74;
+  background-color: #ffffff;
   outline: none;
 }
 
 
 hr {
-  border: 1px solid #f1f1f1;
+  border: 1px solid #371212;
   margin-bottom: 25px;
 }
 
@@ -48,4 +53,16 @@ a {
 .signin {
   background-color: #7fc46a;
   text-align: center;
+}
+
+body {
+  min-height: 90savh;
+  margin: 0;    
+  background: linear-gradient(
+    180deg,
+    #1c0c38,
+    #3b4189,
+    #9da2e1
+  );
+  color: #1e12357e;
 }
